@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket                      = "giba-swarm-terraform-states"
+    bucket                      = "gmautner-org-terraform-states"
     region                      = "us-east-2"
   }
 }
