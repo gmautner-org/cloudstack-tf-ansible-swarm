@@ -45,14 +45,14 @@ workers = {
   }
 
   # Workers for wordpress-mysql stack
-  "wp" = {
-    plan         = "large",
-    data_size_gb = 120,
-  },
-  "mysql" = {
-    plan         = "large",
-    data_size_gb = 90
-  }
+  # "wp" = {
+  #   plan         = "large",
+  #   data_size_gb = 120,
+  # },
+  # "mysql" = {
+  #   plan         = "large",
+  #   data_size_gb = 90
+  # }
 }
 
 # Public IPs and load balancer configuration
